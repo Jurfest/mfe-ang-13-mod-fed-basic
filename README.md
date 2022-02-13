@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
   <img alt="MFE Application" src="./apps/shell/src/assets/img/logo.png" width="250px"/>
     <br>
@@ -21,11 +19,11 @@
 
 This project was developed with the following main technologies:
 
--  [Angular](https://angular.io)
--  [TypeScript](https://www.typescriptlang.org)
--  [Webpack](https://webpack.js.org)
--  [Module Federation (Webpack)](https://webpack.js.org/concepts/module-federation/)
--  [Nx](https://nx.dev)
+- [Angular](https://angular.io)
+- [TypeScript](https://www.typescriptlang.org)
+- [Webpack](https://webpack.js.org)
+- [Module Federation (Webpack)](https://webpack.js.org/concepts/module-federation/)
+- [Nx](https://nx.dev)
 
 ### Running the application
 
@@ -35,6 +33,7 @@ $ ng serve shell
 ```
 
 Inside the browser:
+
 <p>http://localhost:3000</p>
 
 ### Acknowledgment
@@ -43,7 +42,7 @@ To set initial configuration to the applications for Webpack modules the [@angul
 
 ### :page_facing_up: License
 
-This project is under the MIT license. 
+This project is under the MIT license.
 
 ### :mailbox_with_mail: Get in touch!
 
@@ -136,11 +135,6 @@ Run `nx graph` to see a diagram of the dependencies of your projects.
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
 
-
-
-
-
-
 ## ☁ Nx Cloud
 
 ### Distributed Computation Caching & Distributed Task Execution
@@ -152,10 +146,7 @@ Nx Cloud pairs with Nx in order to enable you to build and test code more rapidl
 Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
+
 # mfe-ang-13-mod-fed-basic
 
 ### Thats it ! :wave:
-
----
-
-by Diego Jurfest :tada:
