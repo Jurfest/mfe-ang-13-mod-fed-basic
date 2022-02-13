@@ -1,6 +1,55 @@
 
 
-# Mfe
+<h1 align="center">
+  <img alt="MFE Application" src="./src/assets/img/logo.png" width="250px"/>
+    <br>
+</h1>
+
+<h4 align="center">
+  Angular 13 basic website with micro frontend architecture
+</h4>
+
+<p align="center">
+  <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#installing-the-application">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#page_facing_up-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
+</p>
+<br><br>
+
+### :computer: Technologies
+
+This project was developed with the following main technologies:
+
+-  [Angular](https://angular.io)
+-  [TypeScript](https://www.typescriptlang.org)
+-  [Webpack](https://webpack.js.org)
+-  [Module Federation (Webpack)](https://webpack.js.org/concepts/module-federation/)
+-  [Nx](https://nx.dev)
+
+### Running the application
+
+```bash
+$ ng serve mfe1
+$ ng serve shell
+```
+
+Inside the browser:
+<p>http://localhost:3000</p>
+
+### Acknowledgment
+
+To set initial configuration to the applications for Webpack modules the [@angular-architects/module-federation](https://www.npmjs.com/package/@angular-architects/module-federation) plugin have been used.
+
+### :page_facing_up: License
+
+This project is under the MIT license. 
+
+### :mailbox_with_mail: Get in touch!
+
+[LinkedIn](https://www.linkedin.com/in/diegojurfest/)
+
+### Aditional information
 
 This project was generated using [Nx](https://nx.dev).
 
@@ -104,3 +153,9 @@ Teams using Nx gain the advantage of building full-stack applications with their
 
 Visit [Nx Cloud](https://nx.app/) to learn more.
 # mfe-ang-13-mod-fed-basic
+
+### Thats it ! :wave:
+
+---
+
+by Diego Jurfest :tada:
