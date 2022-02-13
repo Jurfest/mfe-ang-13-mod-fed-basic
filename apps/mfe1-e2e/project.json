@@ -1,17 +1,17 @@
 {
-  "root": "apps/shell-e2e",
-  "sourceRoot": "apps/shell-e2e/src",
+  "root": "apps/mfe1-e2e",
+  "sourceRoot": "apps/mfe1-e2e/src",
   "projectType": "application",
   "targets": {
     "e2e": {
       "executor": "@nrwl/cypress:cypress",
       "options": {
-        "cypressConfig": "apps/shell-e2e/cypress.json",
-        "devServerTarget": "shell:serve:development"
+        "cypressConfig": "apps/mfe1-e2e/cypress.json",
+        "devServerTarget": "mfe1:serve:development"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "shell:serve:production"
+          "devServerTarget": "mfe1:serve:production"
         }
       }
     },
@@ -22,13 +22,13 @@
       ],
       "options": {
         "lintFilePatterns": [
-          "apps/shell-e2e/**/*.{js,ts}"
+          "apps/mfe1-e2e/**/*.{js,ts}"
         ]
       }
     }
   },
   "tags": [],
   "implicitDependencies": [
-    "shell"
+    "mfe1"
   ]
 }

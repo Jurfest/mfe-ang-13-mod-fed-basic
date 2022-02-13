@@ -1,7 +1,7 @@
 {
   "projectType": "application",
-  "root": "apps/shell",
-  "sourceRoot": "apps/shell/src",
+  "root": "apps/mfe1",
+  "sourceRoot": "apps/mfe1/src",
   "prefix": "mfe",
   "targets": {
     "build": {
@@ -10,22 +10,22 @@
         "{options.outputPath}"
       ],
       "options": {
-        "outputPath": "dist/apps/shell",
-        "index": "apps/shell/src/index.html",
-        "main": "apps/shell/src/main.ts",
-        "polyfills": "apps/shell/src/polyfills.ts",
-        "tsConfig": "apps/shell/tsconfig.app.json",
+        "outputPath": "dist/apps/mfe1",
+        "index": "apps/mfe1/src/index.html",
+        "main": "apps/mfe1/src/main.ts",
+        "polyfills": "apps/mfe1/src/polyfills.ts",
+        "tsConfig": "apps/mfe1/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
-          "apps/shell/src/favicon.ico",
-          "apps/shell/src/assets"
+          "apps/mfe1/src/favicon.ico",
+          "apps/mfe1/src/assets"
         ],
         "styles": [
-          "apps/shell/src/styles.scss"
+          "apps/mfe1/src/styles.scss"
         ],
         "scripts": [],
         "customWebpackConfig": {
-          "path": "apps/shell/webpack.config.js"
+          "path": "apps/mfe1/webpack.config.js"
         },
         "commonChunk": false
       },
@@ -45,13 +45,13 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/shell/src/environments/environment.ts",
-              "with": "apps/shell/src/environments/environment.prod.ts"
+              "replace": "apps/mfe1/src/environments/environment.ts",
+              "with": "apps/mfe1/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all",
           "customWebpackConfig": {
-            "path": "apps/shell/webpack.prod.config.js"
+            "path": "apps/mfe1/webpack.prod.config.js"
           }
         },
         "development": {
@@ -69,41 +69,41 @@
       "executor": "@nrwl/angular:webpack-server",
       "configurations": {
         "production": {
-          "browserTarget": "shell:build:production"
+          "browserTarget": "mfe1:build:production"
         },
         "development": {
-          "browserTarget": "shell:build:development"
+          "browserTarget": "mfe1:build:development"
         }
       },
       "defaultConfiguration": "development",
       "options": {
-        "port": 3000,
-        "publicHost": "http://localhost:3000"
+        "port": 4200,
+        "publicHost": "http://localhost:4200"
       }
     },
     "extract-i18n": {
       "executor": "ngx-build-plus:extract-i18n",
       "options": {
-        "browserTarget": "shell:build",
-        "extraWebpackConfig": "apps/shell/webpack.config.js"
+        "browserTarget": "mfe1:build",
+        "extraWebpackConfig": "apps/mfe1/webpack.config.js"
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "options": {
         "lintFilePatterns": [
-          "apps/shell/src/**/*.ts",
-          "apps/shell/src/**/*.html"
+          "apps/mfe1/src/**/*.ts",
+          "apps/mfe1/src/**/*.html"
         ]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
       "outputs": [
-        "coverage/apps/shell"
+        "coverage/apps/mfe1"
       ],
       "options": {
-        "jestConfig": "apps/shell/jest.config.js",
+        "jestConfig": "apps/mfe1/jest.config.js",
         "passWithNoTests": true
       }
     }
