@@ -1,7 +1,7 @@
 
 
 <h1 align="center">
-  <img alt="MFE Application" src="./src/assets/img/logo.png" width="250px"/>
+  <img alt="MFE Application" src="./apps/shell/src/assets/img/logo.png" width="250px"/>
     <br>
 </h1>
 
@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="#computer-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#installing-the-application">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#running-the-application">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#page_facing_up-license">License</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
 </p>
